@@ -1,0 +1,197 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>36441d4d-3328-4072-98d3-35239a390ed9</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>ML_SimpleKnn.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>ML-SimpleKnn</Name>
+    <RootNamespace>ML-SimpleKnn</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ML_SimpleKnn.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data2\testDigits\" />
+    <Folder Include="Data2\trainingDigits\" />
+    <Folder Include="Data\" />
+    <Folder Include="Data2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data2\testDigits\0_1.txt" />
+    <Content Include="Data2\testDigits\0_2.txt" />
+    <Content Include="Data2\testDigits\0_3.txt" />
+    <Content Include="Data2\testDigits\0_4.txt" />
+    <Content Include="Data2\testDigits\0_5.txt" />
+    <Content Include="Data2\testDigits\1_1.txt" />
+    <Content Include="Data2\testDigits\1_2.txt" />
+    <Content Include="Data2\testDigits\1_3.txt" />
+    <Content Include="Data2\testDigits\1_4.txt" />
+    <Content Include="Data2\testDigits\1_5.txt" />
+    <Content Include="Data2\testDigits\2_1.txt" />
+    <Content Include="Data2\testDigits\2_2.txt" />
+    <Content Include="Data2\testDigits\2_3.txt" />
+    <Content Include="Data2\testDigits\2_4.txt" />
+    <Content Include="Data2\testDigits\2_5.txt" />
+    <Content Include="Data2\testDigits\3_1.txt" />
+    <Content Include="Data2\testDigits\3_2.txt" />
+    <Content Include="Data2\testDigits\3_3.txt" />
+    <Content Include="Data2\testDigits\3_4.txt" />
+    <Content Include="Data2\testDigits\3_5.txt" />
+    <Content Include="Data2\testDigits\4_1.txt" />
+    <Content Include="Data2\testDigits\4_2.txt" />
+    <Content Include="Data2\testDigits\4_3.txt" />
+    <Content Include="Data2\testDigits\4_4.txt" />
+    <Content Include="Data2\testDigits\4_5.txt" />
+    <Content Include="Data2\testDigits\5_1.txt" />
+    <Content Include="Data2\testDigits\5_2.txt" />
+    <Content Include="Data2\testDigits\5_3.txt" />
+    <Content Include="Data2\testDigits\5_4.txt" />
+    <Content Include="Data2\testDigits\5_5.txt" />
+    <Content Include="Data2\testDigits\6_1.txt" />
+    <Content Include="Data2\testDigits\6_2.txt" />
+    <Content Include="Data2\testDigits\6_3.txt" />
+    <Content Include="Data2\testDigits\6_4.txt" />
+    <Content Include="Data2\testDigits\6_5.txt" />
+    <Content Include="Data2\testDigits\7_1.txt" />
+    <Content Include="Data2\testDigits\7_2.txt" />
+    <Content Include="Data2\testDigits\7_3.txt" />
+    <Content Include="Data2\testDigits\7_4.txt" />
+    <Content Include="Data2\testDigits\7_5.txt" />
+    <Content Include="Data2\testDigits\8_1.txt" />
+    <Content Include="Data2\testDigits\8_2.txt" />
+    <Content Include="Data2\testDigits\8_3.txt" />
+    <Content Include="Data2\testDigits\8_4.txt" />
+    <Content Include="Data2\testDigits\8_5.txt" />
+    <Content Include="Data2\testDigits\9_1.txt" />
+    <Content Include="Data2\testDigits\9_2.txt" />
+    <Content Include="Data2\testDigits\9_3.txt" />
+    <Content Include="Data2\testDigits\9_4.txt" />
+    <Content Include="Data2\testDigits\9_5.txt" />
+    <Content Include="Data2\trainingDigits\0_1.txt" />
+    <Content Include="Data2\trainingDigits\0_10.txt" />
+    <Content Include="Data2\trainingDigits\0_2.txt" />
+    <Content Include="Data2\trainingDigits\0_3.txt" />
+    <Content Include="Data2\trainingDigits\0_4.txt" />
+    <Content Include="Data2\trainingDigits\0_5.txt" />
+    <Content Include="Data2\trainingDigits\0_6.txt" />
+    <Content Include="Data2\trainingDigits\0_7.txt" />
+    <Content Include="Data2\trainingDigits\0_8.txt" />
+    <Content Include="Data2\trainingDigits\0_9.txt" />
+    <Content Include="Data2\trainingDigits\1_1.txt" />
+    <Content Include="Data2\trainingDigits\1_10.txt" />
+    <Content Include="Data2\trainingDigits\1_2.txt" />
+    <Content Include="Data2\trainingDigits\1_3.txt" />
+    <Content Include="Data2\trainingDigits\1_4.txt" />
+    <Content Include="Data2\trainingDigits\1_5.txt" />
+    <Content Include="Data2\trainingDigits\1_6.txt" />
+    <Content Include="Data2\trainingDigits\1_7.txt" />
+    <Content Include="Data2\trainingDigits\1_8.txt" />
+    <Content Include="Data2\trainingDigits\1_9.txt" />
+    <Content Include="Data2\trainingDigits\2_1.txt" />
+    <Content Include="Data2\trainingDigits\2_10.txt" />
+    <Content Include="Data2\trainingDigits\2_2.txt" />
+    <Content Include="Data2\trainingDigits\2_3.txt" />
+    <Content Include="Data2\trainingDigits\2_4.txt" />
+    <Content Include="Data2\trainingDigits\2_5.txt" />
+    <Content Include="Data2\trainingDigits\2_6.txt" />
+    <Content Include="Data2\trainingDigits\2_7.txt" />
+    <Content Include="Data2\trainingDigits\2_8.txt" />
+    <Content Include="Data2\trainingDigits\2_9.txt" />
+    <Content Include="Data2\trainingDigits\3_1.txt" />
+    <Content Include="Data2\trainingDigits\3_10.txt" />
+    <Content Include="Data2\trainingDigits\3_2.txt" />
+    <Content Include="Data2\trainingDigits\3_3.txt" />
+    <Content Include="Data2\trainingDigits\3_4.txt" />
+    <Content Include="Data2\trainingDigits\3_5.txt" />
+    <Content Include="Data2\trainingDigits\3_6.txt" />
+    <Content Include="Data2\trainingDigits\3_7.txt" />
+    <Content Include="Data2\trainingDigits\3_8.txt" />
+    <Content Include="Data2\trainingDigits\3_9.txt" />
+    <Content Include="Data2\trainingDigits\4_1.txt" />
+    <Content Include="Data2\trainingDigits\4_10.txt" />
+    <Content Include="Data2\trainingDigits\4_2.txt" />
+    <Content Include="Data2\trainingDigits\4_3.txt" />
+    <Content Include="Data2\trainingDigits\4_4.txt" />
+    <Content Include="Data2\trainingDigits\4_5.txt" />
+    <Content Include="Data2\trainingDigits\4_6.txt" />
+    <Content Include="Data2\trainingDigits\4_7.txt" />
+    <Content Include="Data2\trainingDigits\4_8.txt" />
+    <Content Include="Data2\trainingDigits\4_9.txt" />
+    <Content Include="Data2\trainingDigits\5_1.txt" />
+    <Content Include="Data2\trainingDigits\5_10.txt" />
+    <Content Include="Data2\trainingDigits\5_2.txt" />
+    <Content Include="Data2\trainingDigits\5_3.txt" />
+    <Content Include="Data2\trainingDigits\5_4.txt" />
+    <Content Include="Data2\trainingDigits\5_5.txt" />
+    <Content Include="Data2\trainingDigits\5_6.txt" />
+    <Content Include="Data2\trainingDigits\5_7.txt" />
+    <Content Include="Data2\trainingDigits\5_8.txt" />
+    <Content Include="Data2\trainingDigits\5_9.txt" />
+    <Content Include="Data2\trainingDigits\6_1.txt" />
+    <Content Include="Data2\trainingDigits\6_10.txt" />
+    <Content Include="Data2\trainingDigits\6_2.txt" />
+    <Content Include="Data2\trainingDigits\6_3.txt" />
+    <Content Include="Data2\trainingDigits\6_4.txt" />
+    <Content Include="Data2\trainingDigits\6_5.txt" />
+    <Content Include="Data2\trainingDigits\6_6.txt" />
+    <Content Include="Data2\trainingDigits\6_7.txt" />
+    <Content Include="Data2\trainingDigits\6_8.txt" />
+    <Content Include="Data2\trainingDigits\6_9.txt" />
+    <Content Include="Data2\trainingDigits\7_1.txt" />
+    <Content Include="Data2\trainingDigits\7_10.txt" />
+    <Content Include="Data2\trainingDigits\7_2.txt" />
+    <Content Include="Data2\trainingDigits\7_3.txt" />
+    <Content Include="Data2\trainingDigits\7_4.txt" />
+    <Content Include="Data2\trainingDigits\7_5.txt" />
+    <Content Include="Data2\trainingDigits\7_6.txt" />
+    <Content Include="Data2\trainingDigits\7_7.txt" />
+    <Content Include="Data2\trainingDigits\7_8.txt" />
+    <Content Include="Data2\trainingDigits\7_9.txt" />
+    <Content Include="Data2\trainingDigits\8_1.txt" />
+    <Content Include="Data2\trainingDigits\8_10.txt" />
+    <Content Include="Data2\trainingDigits\8_2.txt" />
+    <Content Include="Data2\trainingDigits\8_3.txt" />
+    <Content Include="Data2\trainingDigits\8_4.txt" />
+    <Content Include="Data2\trainingDigits\8_5.txt" />
+    <Content Include="Data2\trainingDigits\8_6.txt" />
+    <Content Include="Data2\trainingDigits\8_7.txt" />
+    <Content Include="Data2\trainingDigits\8_8.txt" />
+    <Content Include="Data2\trainingDigits\8_9.txt" />
+    <Content Include="Data2\trainingDigits\9_1.txt" />
+    <Content Include="Data2\trainingDigits\9_10.txt" />
+    <Content Include="Data2\trainingDigits\9_2.txt" />
+    <Content Include="Data2\trainingDigits\9_3.txt" />
+    <Content Include="Data2\trainingDigits\9_4.txt" />
+    <Content Include="Data2\trainingDigits\9_5.txt" />
+    <Content Include="Data2\trainingDigits\9_6.txt" />
+    <Content Include="Data2\trainingDigits\9_7.txt" />
+    <Content Include="Data2\trainingDigits\9_8.txt" />
+    <Content Include="Data2\trainingDigits\9_9.txt" />
+    <Content Include="Data\t10k-images-idx3-ubyte.gz" />
+    <Content Include="Data\t10k-labels-idx1-ubyte.gz" />
+    <Content Include="Data\train-images-idx3-ubyte.gz" />
+    <Content Include="Data\train-labels-idx1-ubyte.gz" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
