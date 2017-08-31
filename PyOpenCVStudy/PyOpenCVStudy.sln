@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.3
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "OpenCVBase", "OpenCVBase\OpenCVBase.pyproj", "{F48F6EFA-AB12-4148-AE45-AFA8B81BCF69}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ML-SimpleKnn", "ML-SimpleKnn\ML-SimpleKnn.pyproj", "{36441D4D-3328-4072-98D3-35239A390ED9}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Matplotlib", "Matplotlib\Matplotlib.pyproj", "{8A96E8B9-EDF0-498D-8E9C-0BF8AC7BC84C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,8 @@ Global
 		{F48F6EFA-AB12-4148-AE45-AFA8B81BCF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36441D4D-3328-4072-98D3-35239A390ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{36441D4D-3328-4072-98D3-35239A390ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A96E8B9-EDF0-498D-8E9C-0BF8AC7BC84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A96E8B9-EDF0-498D-8E9C-0BF8AC7BC84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>36441d4d-3328-4072-98d3-35239a390ed9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ML_SimpleKnn.py</StartupFile>
+    <StartupFile>recognize_hand-written_digit.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ML_SimpleKnn.py" />
+    <Compile Include="recognize_hand-written_digit.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data2\testDigits\" />
