@@ -31,6 +31,7 @@
     <Folder Include="Data2\trainingDigits\" />
     <Folder Include="Data\" />
     <Folder Include="Data2\" />
+    <Folder Include="Imgs\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data2\testDigits\0_1.txt" />
@@ -187,6 +188,9 @@
     <Content Include="Data\t10k-labels-idx1-ubyte.gz" />
     <Content Include="Data\train-images-idx3-ubyte.gz" />
     <Content Include="Data\train-labels-idx1-ubyte.gz" />
+    <Content Include="Imgs\handwrite_1.png" />
+    <Content Include="Imgs\handwrite_3.png" />
+    <Content Include="Imgs\handwrite_6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
