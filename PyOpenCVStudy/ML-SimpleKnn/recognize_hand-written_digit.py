@@ -92,7 +92,8 @@ def main():
 
 
     #mat,label = txtImg2Mat("Imgs/handwrite3_3.txt")
-    #mat2,label2 = txtImg2Mat("Data2/testDigits/3_3.txt") #真傻逼，每一行都得有值，所果全是0就傻逼，样本太少也傻逼
+    #mat2,label2 = txtImg2Mat("Data2/testDigits/3_3.txt")
+    ##真傻逼，每一行都得有值，所果全是0就傻逼，样本太少也傻逼
     ''' 第一个就占满了 可以正确的识别，第二个没占满，所以训练的样本应该足够多
 00000011111110000000000000000000
 00000001111111100000000000000000

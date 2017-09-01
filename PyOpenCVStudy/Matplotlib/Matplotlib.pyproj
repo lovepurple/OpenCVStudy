@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8a96e8b9-edf0-498d-8e9c-0bf8ac7bc84c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Matplotlib.py</StartupFile>
+    <StartupFile>drawdiagram.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="drawdiagram.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Matplotlib.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
